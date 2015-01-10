@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>velocity Hello world</title>
+    </head>
+    <body>  
+        #set($a="hello world!")  
+        velocity $a<br>  
+        
+	    #set( $job = "软件工程师" )
+		luyunqiang is a $job<br/>
+        
+		#set ($cities=['taipei','new taipei','taoyuan','taichung','tainan','kaohsiung'])
+		#foreach ($city in $cities)
+            This is $city.<br/>
+        #end
+</body>
+</html>
