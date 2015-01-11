@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Spring MVC and Velocity</title>
+    </head>
+    <body>
+        <h1>Spring MVC and Velocity</h1>
+		
+
+		#set($name='雪山飞狐')
+		
+		<b>$name</b>
+		
+        $screen_content
+        <hr />
+        Copyright &copy 2012 lucumt
+    </body>
+</html>
